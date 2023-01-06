@@ -1,0 +1,143 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.txt-col {
+    color: #fafafa;
+}
+
+.gray {
+    color: hsl(0, 0%, 41%) !important;
+}
+
+.brd {
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 13px;
+    padding: 8px 28px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-100 {
+    font-size: 90px;
+}
+
+.py-120 {
+    padding-top: 120px;
+}
+
+.p-0 {
+    margin-top: -7%;
+}
+
+.cr a:hover {
+    color: black !important;
+
+}
+
+ .button1 {
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: black;
+    color:white;
+    border: 2px solid;
+    border-radius: 13px;
+    padding: 14px 32px;
+}
+
+.button1:hover{
+    background-color:white;
+    color:black !important;
+} 
+
+
+
+
+@media (min-width: 768px) { 
+    .none{
+        display: none !important;
+    }
+    
+}
+
+@media (max-width: 768px) { 
+    .none2{
+        display: none !important;
+    }
+    .fs-20{
+        font-size: 50px;
+    }
+    .cnter{
+        text-align: center;
+    }
+    .img2{
+        object-fit:cover;
+        width:100%;
+    }
+    .fs2{
+        width: 17%;
+    }
+}
+
+
+.bg-soft{
+    background-color:white;
+}
+.top-00{
+    top: 60px;
+}
+.l-100{
+    left:100%;
+}
+.h-100vh{
+    height: 100vh;
+}
+
+
+/* .accordion {
+
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }  */
+
+
+.hamburger:hover {
+    opacity: 1; }
+  .hamburger.is-active:hover {
+    opacity: 1; }
+
+.overflowx-h{ overflow:hidden;}
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after { background-color: black }
+
+.hamburger .hamburger-inner,
+.hamburger .hamburger-inner::before,
+.hamburger .hamburger-inner::after { background-color:black; }
+
+
+
+
+
+
